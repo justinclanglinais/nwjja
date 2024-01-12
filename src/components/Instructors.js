@@ -1,21 +1,18 @@
 import React from 'react';
 import nwjja from '../json/nwjja.json'
 
-const About = () => {
+const Instructors = () => {
+    const InstructorList = nwjja.instructors.map(ins => {
+        <div>
+            {ins.name}
+            <p>Hello</p>
+        </div>
+    })
     return (
         <div>
-            {nwjja.instructors.map = (i) => {
-                return (
-                <div>
-                    {i.name}
-                    <p>
-                        HI THERE
-                    </p>
-                </div>
-                )
-            }}
-        </div>
+            {InstructorList}
+        </div>  
     )
 }
 
-export default About;
+export default Instructors;

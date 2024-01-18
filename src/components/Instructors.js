@@ -5,14 +5,27 @@ const Instructors = () => {
     const InstructorList = nwjja.instructors.map(ins => {
         return (
             <div>
-                {ins.name}
+                <div>
+                    {ins.name}
+                </div>
+                <div>
+                    {ins.rank}
+                </div>
+                <div>
+                    {ins.about}
+                </div>
             </div>
         )
     })
     return (
         <div>
-            {InstructorList}
-        </div>  
+            <div>
+                <h1>Instructors</h1>
+            </div>
+            <div>
+                {InstructorList}
+            </div>
+        </div>
     )
 }
 

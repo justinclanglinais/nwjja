@@ -1,17 +1,17 @@
 import React from 'react';
 import nwjja from '../json/nwjja.json'
 
-const About = () => {
+const Contact = () => {
     return (
         <div>
             <h2>
-                About
+                Contact
             </h2>
             <p>
-                {nwjja.profile.history}
+                Contact us <a href="http://www.nwjja.net">here</a>
             </p>
         </div>
     )
 }
 
-export default About;
+export default Contact;

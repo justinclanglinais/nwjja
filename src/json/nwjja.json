@@ -1,40 +1,62 @@
 {
     "instructors": [
-      {
-        "id": 1,
-        "name": "Brian Johnson",
-        "rank": "Black Belt",
-        "degree": "5th degree",
-        "about": "Brian began training BJJ in 1994 and went on to become a world-class instructor and competitor."
-      },
-      {
-        "id": 2,
-        "name": "Joseph Montange",
-        "rank": "Black Belt",
-        "degree": "1st degree",
-        "about": "Joseph teaches Friday night Advanced class"
-      },
-      {
-        "id": 3,
-        "name": "Justin Langlinais",
-        "rank": "Black Belt",
-        "degree": "",
-        "about": "Justin teaches Wednesday night Advanced class and hosts Sunday open mat"
-      }
-    ],
-    "comments": [
-      {
-        "id": 1,
-        "body": "some comment",
-        "postId": 1
-      },
-      {
-        "id": 2,
-        "body": "some comment",
-        "postId": 1
-      }
+        {
+            "id": 1,
+            "name": "Brian Johnson",
+            "rank": "Black Belt - 5th degree",
+            "about": "Brian began training BJJ in 1994 and went on to become a world-class instructor and competitor."
+        },
+        {
+            "id": 2,
+            "name": "Joseph Montange",
+            "rank": "Black Belt - 1st degree",
+            "about": "Joseph teaches Friday night Advanced class"
+        },
+        {
+            "id": 3,
+            "name": "Justin Langlinais",
+            "rank": "Black Belt",
+            "about": "Justin teaches Wednesday night Advanced class and hosts Sunday open mat"
+        }
+        ],
+        "comments": [
+        {
+            "id": 1,
+            "body": "some comment",
+            "postId": 1
+        },
+        {
+            "id": 2,
+            "body": "some comment",
+            "postId": 1
+        }
     ],
     "profile": {
-      "history": "The Northwest Jiu-Jitsu Academy is one of the oldest and largest Brazilian Jiu-Jitsu schools in the Seattle area, located in Seattle, Washington near Green Lake.  Owner and chief instructor Brian Johnson is 3-time world champion and 5th-degree black belt, awarded to him by the legendary Rigan Machado and endorsed by the Machado Brothers.  Northwest Jiu-Jitsu Academy offers kid, teen, and adult Brazilian Jiu-Jitsu classes, in addition to women's classes, circuit training, and competition training. "
-    }
+        "history": "The Northwest Jiu-Jitsu Academy is one of the oldest and largest Brazilian Jiu-Jitsu schools in the Seattle area, located in Seattle, Washington near Green Lake.  Owner and chief instructor Brian Johnson is 3-time world champion and 5th-degree black belt, awarded to him by the legendary Rigan Machado and endorsed by the Machado Brothers.  Northwest Jiu-Jitsu Academy offers kid, teen, and adult Brazilian Jiu-Jitsu classes, in addition to women's classes, circuit training, and competition training. "
+    },
+    "intro": {
+        "title": "5-week Beginner's Course",
+        "bullets": [
+            "Don't know where to start?",
+            "Confused about what to buy? Uniform included!",
+            "Want to learn an overview of jiu jitsu?"
+        ]
+    },
+    "programs": [
+        {
+            "id": 1,
+            "name": "Basic Jiu Jitsu",
+            "desc": "Great for anyone from beginners to black belts, these courses cover the fundamental concepts and techniques we use in jiu jitsu."
+        },
+        {
+            "id": 2,
+            "name": "Advanced Jiu Jitsu",
+            "desc": "After you understand jiu jitsu as a whole, we can start to explore the more complex systems used in jiu jitsu, and learn how they all connect."
+        },
+        {
+            "id": 3,
+            "name": "Women's Jiu Jitsu",
+            "desc": "Led by women, come learn and train with other women."
+        }
+    ]
   }

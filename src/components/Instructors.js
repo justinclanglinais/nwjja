@@ -6,10 +6,14 @@ const Instructors = () => {
         return (
             <div>
                 <div>
-                    {ins.name}
+                    <h3>
+                        {ins.name}
+                    </h3>
                 </div>
                 <div>
-                    {ins.rank}
+                    <h5>
+                        {ins.rank}
+                    </h5>
                 </div>
                 <div>
                     {ins.about}

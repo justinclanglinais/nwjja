@@ -4,9 +4,9 @@ import nwjja from '../json/nwjja.json'
 const About = () => {
     return (
         <div>
-            <h2>
+            <h1>
                 About
-            </h2>
+            </h1>
             <p>
                 {nwjja.profile.history}
             </p>

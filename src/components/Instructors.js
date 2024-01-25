@@ -22,7 +22,7 @@ const Instructors = () => {
         )
     })
     return (
-        <div>
+        <div className="section">
             <div>
                 <h1>Instructors</h1>
             </div>

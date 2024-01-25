@@ -12,7 +12,7 @@ const Intro = () => {
         )
     })
     return (
-        <div>
+        <div className="section">
             <div>
                 <h1>Intro</h1>
             </div>

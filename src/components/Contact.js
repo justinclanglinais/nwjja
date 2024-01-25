@@ -3,10 +3,10 @@ import nwjja from '../json/nwjja.json'
 
 const Contact = () => {
     return (
-        <div>
-            <h2>
+        <div className="section">
+            <h1>
                 Contact
-            </h2>
+            </h1>
             <p>
                 Contact us <a href="http://www.nwjja.net">here</a>
             </p>

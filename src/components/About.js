@@ -3,7 +3,7 @@ import nwjja from '../json/nwjja.json'
 
 const About = () => {
     return (
-        <div>
+        <div className="section">
             <h1>
                 About
             </h1>

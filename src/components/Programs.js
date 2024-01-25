@@ -15,7 +15,7 @@ const Programs = () => {
         )
     })
     return (
-        <div>
+        <div className="section">
             <div>
                 <h1>Programs</h1>
             </div>

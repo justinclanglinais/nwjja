@@ -12,7 +12,7 @@ const Intro = () => {
         )
     })
     return (
-        <div className="section" background-color="red">
+        <div className="section-dark">
             <div>
                 <h1>
                     Join Our 5-Week Beginner Course

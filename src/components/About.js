@@ -4,7 +4,7 @@ import logo from '../logo192.png'
 
 const About = () => {
     return (
-        <div className="section">
+        <div className="section-light">
             <div className="section-2-grid">
                 <div className="column-left">
                     <h1>

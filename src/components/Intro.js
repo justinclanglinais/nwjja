@@ -18,13 +18,17 @@ const Intro = () => {
                     Join Our Beginner Course
                 </h2>
             </div>
-            <div >
-                <div>
+            <div className="section-3-grid">
+                {/* <div>
                     <h1>Intro</h1>
                 </div>
                 <div>
                     {Bullets}
                 </div>
+                <div>
+                    
+                </div> */}
+                {Bullets}
             </div>
         </div>
     )

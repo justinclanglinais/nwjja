@@ -14,10 +14,17 @@ const Intro = () => {
     return (
         <div className="section">
             <div>
-                <h1>Intro</h1>
+                <h2>
+                    Join Our Beginner Course
+                </h2>
             </div>
-            <div>
-                {Bullets}
+            <div >
+                <div>
+                    <h1>Intro</h1>
+                </div>
+                <div>
+                    {Bullets}
+                </div>
             </div>
         </div>
     )

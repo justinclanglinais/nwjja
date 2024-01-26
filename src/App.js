@@ -18,10 +18,10 @@ class App extends React.Component {
     return (
       <div className="App">
         <About />
-        <Instructors />
         <Intro />
-        <Programs />
-        <Contact />
+        {/* <Programs /> */}
+        {/* <Instructors /> */}
+        {/* <Contact /> */}
       </div>
     );
   }

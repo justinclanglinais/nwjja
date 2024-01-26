@@ -4,7 +4,7 @@ import nwjja from '../json/nwjja.json'
 const Intro = () => {
     const Bullets = nwjja.intro.bullets.map(bullet => {
         return (
-            <div>
+            <div className="column">
                 <p>
                     {bullet}
                 </p>
@@ -12,11 +12,11 @@ const Intro = () => {
         )
     })
     return (
-        <div className="section">
+        <div className="section" background-color="red">
             <div>
-                <h2>
-                    Join Our Beginner Course
-                </h2>
+                <h1>
+                    Join Our 5-Week Beginner Course
+                </h1>
             </div>
             <div className="section-3-grid">
                 {/* <div>

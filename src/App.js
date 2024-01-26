@@ -19,7 +19,7 @@ class App extends React.Component {
       <div className="App">
         <About />
         <Intro />
-        {/* <Programs /> */}
+        <Programs />
         {/* <Instructors /> */}
         {/* <Contact /> */}
       </div>

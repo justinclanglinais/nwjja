@@ -5,7 +5,7 @@ import logo from '../logo192.png'
 const Programs = () => {
     const ProgramsList = nwjja.programs.map(program => {
         return (
-            <div>
+            <div className='column'>
                 <img src={logo} alt="logo" />
                 <h3>
                     {program.name}

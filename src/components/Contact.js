@@ -3,7 +3,7 @@ import nwjja from '../json/nwjja.json'
 
 const Contact = () => {
     return (
-        <div className="section">
+        <div className="section-light">
             <h1>
                 Contact Us
             </h1>

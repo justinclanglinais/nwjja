@@ -35,7 +35,7 @@ const Instructors = () => {
         )
     })
     return (
-        <div className="section">
+        <div className="section-dark">
             <div>
                 <h1>Instructors</h1>
             </div>
